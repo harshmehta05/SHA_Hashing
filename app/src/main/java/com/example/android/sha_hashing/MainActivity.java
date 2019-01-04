@@ -11,6 +11,9 @@ import java.security.MessageDigest;
 
 public class MainActivity extends AppCompatActivity {
 
+    //Sample Project
+
+
     private EditText input;
     private TextView output;
 
@@ -48,3 +51,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 }
+
+
+///Added a comment
