@@ -8,5 +8,8 @@ public class UserRegistration
     String username = sc.next();
     System.out.println("Enter password");
     String password = sc.next();
+    if (password.length() < 5){
+      System.out.println("Invalid Password!");
+    }
   }
 }
